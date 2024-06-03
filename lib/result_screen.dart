@@ -34,6 +34,7 @@ class ResultScreen extends StatelessWidget {
 
   @override
   Widget build(context) {
+    // final summaryData = getSummatyData();
     final x = questions.length;
     final y = summaryData.where((data) {
       return data['user_answer'] == data['correct_answer'];
